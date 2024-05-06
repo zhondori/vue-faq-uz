@@ -12,9 +12,9 @@ head:
       content: /images/vue-faq-logo.png
 ---
 
-# Установка
+# Installation
 
-## Установка пакета
+## Installation of the npm package
 
 ::: code-group
 ```bash [pnpm]
@@ -28,9 +28,9 @@ npm install release-timeline
 ```
 :::
 
-## Использование в коде Vue проекта
+## Usage in Vue project code
 
-Во Vue компоненте:
+In a Vue component:
 
 ```vue
 <script setup>
@@ -46,13 +46,13 @@ options.github.repo = "release-timeline";
 <ReleaseTimeline :options="options" />
 ```
 
-Подключение `animated-background.css` опционально. CSS со звездным небом занимает 70Kb, в gzip формате - 6.1Кб.
+Import of the `animated-background.css` is optional. CSS with starred sky takes 70Kb, in gzip format - 6.1Kb.
 
-## Использование в VitePress
+## Use in VitePress
 
-[Инструкция](./vitepress.md)
+[Instructions](./vitepress.md)
 
-## Использование как web component
+## Use as web component
 
 ```html
 <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
@@ -62,4 +62,4 @@ options.github.repo = "release-timeline";
 <release-timeline options=""></release-timeline>
 ```
 
-Подробнее - о подключении как [web component](./web-component.md)
+Read more about connecting as [web component usage](./web-component.md)

@@ -19,6 +19,7 @@ export default [
       { text: "Как вставлять картинки и другие ресурсы", link: "/ru/development/assets" },
       { text: "Сторы - Vuex, Pinia и Composition API", link: "/ru/development/stores" },
       { text: "Тестирование", link: "/ru/development/testing" },
+      { text: "Web components", link: "/ru/development/web-components" },
       { text: "Полезные советы", link: "/ru/development/misc" },
     ],
   },
@@ -27,7 +28,7 @@ export default [
     items: [
       { text: "Авторизация и аутентификация", link: "/ru/backend/auth" },
       { text: "Протоколы. To REST или не REST?", link: "/ru/backend/protocols" },
-      { text: "Выделение API сервиса", link: "/ru/backend/api" },
+      { text: "API сервис", link: "/ru/backend/api" },
       { text: "Варианты сделать бэкенд", link: "/ru/backend/backend" },
       { text: "CORS", link: "/ru/backend/cors" },
     ],

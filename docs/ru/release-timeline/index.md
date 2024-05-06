@@ -14,18 +14,30 @@ head:
 
 # Release Timeline
 
-## Визуализация релизов ПО по временной шкале
+## Визуализация релизов
 
-![image](/ru/release-timeline/assets/images/rt-image.jpg)
+Визуализация релизов любого GitHub репозитория по временной шкале, с информацией о коммитах и пул риквестах.
 
-Vue 3, без зависимостей, 9Кб в распакованном виде. Адаптирована для работы в VitePress (переключение светлой и темной тем).
+Встраивается в VitePress, может быть хорошей заменой `changelog`-а в технической документации проекта, автоматизируя фиксацию изменений и делая слежение за ними удобным для пользователей.
 
-Библиотека обращается в GitHub REST API за данными по релизам определенного репозитория и визуализирует их.
+Также может быть подключено в любой HTML странице как Web component или микрофронтенд.
 
-## To Do
+![image](/ru/release-timeline/assets/images/rt.jpg)
 
-Планируется добавить commits и pull requests к каждому релизу
+Библиотека написана с использованием Vue 3, не имеет зависимостей, занимает 15Кб в распакованном виде. Адаптирована для работы в VitePress (переключение светлой и темной тем). Может подключаться как `web component` в не Vue проектах.
 
-## GitHub
+Данные по релизам определенного репозитория берутся через GitHub REST API.
 
-[https://github.com/vuesence/release-timeline](https://github.com/vuesence/release-timeline)
+Public репозитории доступны сразу, для private репозиториев требуется использовать GitHub API токен.
+
+## Репозиторий
+
+- [GitHub](https://github.com/vuesence/release-timeline)
+
+## Demo
+
+- [Demo](https://vuesence.github.io/release-timeline/) (можно задать любой репозиторий через выбор в верхнем левом углу)
+
+## Credits
+
+[Parallax Star background in CSS](https://codepen.io/sarazond/pen/LYGbwj)

@@ -12,11 +12,11 @@ head:
       content: /images/vue-faq-logo.png
 ---
 
-# Конфигурация
+# Configuration
 
-Обязательные опции: `owner` и `repo`
+Required Options: `owner` и `repo`
 
-## Опции
+## Options
 
 ```js
 export const DefaultOptions = {
@@ -74,11 +74,11 @@ export const DefaultOptions = {
 };
 ```
 
-## Стилизация
+## Styling
 
-Библиотека использует CSS переменные для поддержки тем. Вы можете переопределить их под свою цветовую гамму.
+The library uses CSS variables to support themes. You can override them to suit your color scheme.
 
-Значения по умолчанию представлены ниже:
+The default values are shown below:
 
 ```vue
 <style>
@@ -110,5 +110,5 @@ export const DefaultOptions = {
 }
 </style>
 
-Для перехода на темную тему необходимо установить CSS класс `dark` на одном из родителей.
+To switch to a dark theme, you need to set the CSS class `dark` on one of the parents.
 ```
