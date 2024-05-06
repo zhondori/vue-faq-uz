@@ -112,7 +112,7 @@ export default defineConfig({
     },
 
   },
-  lang: "en",
+  lang: "uz",
   title: "Vue FAQ",
   // description: "Vue JavaScript framework FAQ",
   description: "Vue FAQ - information about Vue.js and frontend development in general",
