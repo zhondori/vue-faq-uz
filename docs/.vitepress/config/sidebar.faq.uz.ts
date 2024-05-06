@@ -4,7 +4,7 @@ export default [
     text: "Frontend",
     items: [
       { text: "Frontend freymvorklar haqida", link: "/uz/frontend/about-frameworks" },
-      { text: "Vue'ni qandayt o'rganish mumkin", link: "/uz/frontend/learning" },
+      { text: "Vue'ni qanday o'rganish mumkin", link: "/uz/frontend/learning" },
       { text: "SPA, PWA, SSG, SSR and SEO", link: "/uz/frontend/spa-pwa-ssr-ssg" },
       { text: "CSS and UI kutubxonalar", link: "/uz/frontend/css-ui-libs" },
       { text: "Frontend ilova arxitekturasi", link: "/uz/frontend/architecture" },
@@ -38,7 +38,7 @@ export default [
       { text: "CI/CD", link: "/uz/deployment/ci-cd" },
       { text: "Github Actions", link: "/uz/deployment/github-actions" },
       { text: "Saytni hostingga joylash", link: "/uz/deployment/hosting" },
-      // { text: "Docker", link: "/uz/deployment/docker" },
+      { text: "Docker", link: "/uz/deployment/docker" },
     ],
   },
   { text: "Cheat-sheet'lar", link: "/uz/misc/cheat-sheets" },

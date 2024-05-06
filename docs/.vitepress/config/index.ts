@@ -14,7 +14,7 @@ import sidebar_release_timeline_en from "./sidebar.release-timeline.en";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // base: "/ru/",
+  base: "/uz/",
   locales: {
     ru: {
       lang: "ru",

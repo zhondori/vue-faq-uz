@@ -53,7 +53,7 @@ Vue's reactivity can be used without UIs at all. For example, [this VS Code exte
 
 Vue reaktiv ma'lumotlar bilan samaraliroq ishlaydi.
 
-Massviga yangi element qo'shish:
+Massivga yangi element qo'shish:
 
 ```js
 // React
