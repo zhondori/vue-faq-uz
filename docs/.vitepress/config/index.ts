@@ -16,6 +16,33 @@ import sidebar_release_timeline_en from "./sidebar.release-timeline.en";
 export default defineConfig({
   // base: "/uz/",
   locales: {
+    uz: {
+      lang: "uz",
+      label: "O'zbek",
+      themeConfig: {
+        nav: nav_uz,
+        sidebar: {
+          "/uz/": sidebar_faq_uz,
+          "/uz/vue-webapp/": sidebar_vue_webapp_en,
+        },
+        socialLinks: [
+          { icon: "twitter", link: "https://twitter.com/vuefaq" },
+          { icon: "github", link: "https://github.com/vuesence/vue-faq" },
+          { icon: { svg: "<svg xmlns=\"http://www.w3.org/2000/svg\"><g><text font-weight=\"bold\" xml:space=\"preserve\" font-size=\"18\" id=\"svg_1\" y=\"16\" x=\"8\" fill=\"currentColor\">Star it!</text></g></svg>" }, link: "https://github.com/vuesence/vue-faq" },
+        ],
+      },
+      head: [
+        ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-JCCRGKJ88B" }],
+        [
+          "script",
+          {},
+          `window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-JCCRGKJ88B');`,
+        ],
+      ],
+    },
     ru: {
       lang: "ru",
       label: "Русский",
@@ -83,33 +110,7 @@ export default defineConfig({
         ],
       ],
     },
-    uz: {
-      lang: "uz",
-      label: "O'zbek",
-      themeConfig: {
-        nav: nav_uz,
-        sidebar: {
-          "/uz/": sidebar_faq_uz,
-          "/uz/vue-webapp/": sidebar_vue_webapp_en,
-        },
-        socialLinks: [
-          { icon: "twitter", link: "https://twitter.com/vuefaq" },
-          { icon: "github", link: "https://github.com/vuesence/vue-faq" },
-          { icon: { svg: "<svg xmlns=\"http://www.w3.org/2000/svg\"><g><text font-weight=\"bold\" xml:space=\"preserve\" font-size=\"18\" id=\"svg_1\" y=\"16\" x=\"8\" fill=\"currentColor\">Star it!</text></g></svg>" }, link: "https://github.com/vuesence/vue-faq" },
-        ],
-      },
-      head: [
-        ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-JCCRGKJ88B" }],
-        [
-          "script",
-          {},
-          `window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-JCCRGKJ88B');`,
-        ],
-      ],
-    },
+
   },
   lang: "en",
   title: "Vue FAQ",
